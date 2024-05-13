@@ -1,5 +1,11 @@
-requests>=2.20.0
+requests>=2.31.0
 cbfeeds==0.8.0
 cbint>=0.9.2
 pyinstaller==3.1.1
 flask==0.12.4
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+prompt-toolkit>=3.0.13 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
